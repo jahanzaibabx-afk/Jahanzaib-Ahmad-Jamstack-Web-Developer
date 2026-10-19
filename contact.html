@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Jahanzaib Ahmad to discuss a responsive static website project.">
+  <meta name="theme-color" content="#030712">
+  <title>Contact | Jahanzaib Ahmad</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="./index.html" aria-label="Jahanzaib Ahmad home"><span class="brand-mark" aria-hidden="true">JA</span><span class="brand-name">Jahanzaib <strong>Ahmad</strong></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="primary-navigation"><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./skills.html">Skills</a><a href="./contact.html" aria-current="page">Contact Us</a><a class="button button-small button-primary nav-cta" href="./contact.html">Hire Me <span aria-hidden="true">↗</span></a></div>
+  </nav></header>
+  <main id="main">
+    <section class="page-hero container"><p class="eyebrow"><span class="status-dot"></span> Get in touch</p><h1>Let’s talk about <span class="text-gradient">your next idea.</span></h1><p class="page-lead">Have a website project in mind? Share a little about it and I’ll be glad to hear from you.</p></section>
+    <section class="section container contact-layout">
+      <aside class="contact-aside">
+        <p class="eyebrow">Start a conversation</p><h2>Good things start with a <span class="text-gradient">hello.</span></h2><p>Use the form to prepare an email, or contact me directly at the address below. The form opens your email application; it does not send or store messages by itself.</p>
+        <a class="email-card card" href="mailto:jahanzaibabx@gmail.com"><span class="email-icon" aria-hidden="true">✉</span><span><small>EMAIL ME DIRECTLY</small><strong>jahanzaibabx@gmail.com</strong></span><span class="email-arrow" aria-hidden="true">↗</span></a>
+        <div class="contact-note"><span class="status-dot"></span><span>Available to discuss website projects</span></div>
+      </aside>
+      <div class="contact-form-wrap card">
+        <h2>Send a message</h2><p class="form-intro">Fill in the details below. Your email app will open with a draft for you to review and send.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-field"><label for="name">Your name <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="name-error"><small class="field-error" id="name-error"></small></div>
+            <div class="form-field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><small class="field-error" id="email-error"></small></div>
+          </div>
+          <div class="form-field"><label for="subject">Subject <span aria-hidden="true">*</span></label><input id="subject" name="subject" type="text" required minlength="3" aria-describedby="subject-error"><small class="field-error" id="subject-error"></small></div>
+          <div class="form-field"><label for="message">Your message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" required minlength="10" aria-describedby="message-error"></textarea><small class="field-error" id="message-error"></small></div>
+          <p class="form-disclaimer">This static form prepares a message in your email app. You’ll need to send it there. If that doesn’t open, email <a href="mailto:jahanzaibabx@gmail.com">jahanzaibabx@gmail.com</a> directly.</p>
+          <button class="button button-primary submit-button" type="submit">Prepare Email <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">JA</span><span class="brand-name">Jahanzaib <strong>Ahmad</strong></span></a><p>JAMstack web developer building thoughtful, responsive websites.</p></div><div class="footer-nav"><span class="footer-label">Explore</span><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./skills.html">Skills</a><a href="./contact.html">Contact Us</a></div><div class="footer-contact"><span class="footer-label">Say hello</span><a href="mailto:jahanzaibabx@gmail.com">jahanzaibabx@gmail.com</a><p>Open to discussing website projects.</p></div></div><div class="container footer-bottom"><span>© <span data-year></span> Jahanzaib Ahmad</span><span>Designed &amp; built with care <span class="footer-heart" aria-hidden="true">♥</span></span></div></footer>
+</body>
+</html>
